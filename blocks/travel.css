@@ -1,0 +1,24 @@
+.travel {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: red;
+}
+.travel__title {
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+}
+
+.travel__description {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  font-family: "Inter";
+}
+.travel_image {
+  width: 100%;
+}

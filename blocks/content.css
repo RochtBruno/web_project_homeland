@@ -1,0 +1,33 @@
+.content {
+  width: 830px;
+  background-color: blue;
+  margin: 0 auto 0 148px;
+}
+
+.content__title {
+  font-family: "Inter";
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+}
+
+.content__quote {
+  font-size: 24px;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.content__quote-author {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.content__text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
