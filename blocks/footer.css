@@ -1,6 +1,6 @@
 .footer {
-  background-color: green;
   text-align: center;
+  padding: 15px 0;
 }
 
 .footer__content {
@@ -8,4 +8,5 @@
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
+  color: #fff;
 }
