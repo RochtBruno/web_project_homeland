@@ -26,6 +26,34 @@
   text-align: center;
   color: #fff;
 }
-.travel_image {
+
+.travel__image img {
   width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .travel__title {
+    margin-bottom: 80px;
+    width: 90%;
+  }
+  
+  .travel__description {
+    margin-bottom: 50px;
+    width: 90%;
+  }
+
+  .travel_image img{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 544px){
+  .travel__title {
+    margin-bottom: 220px;
+    width: 90%;
+  }
+  .travel__description {
+    margin-bottom: 80px;
+    width: 90%;
+  }
 }
