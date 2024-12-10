@@ -1,10 +1,10 @@
-.content {
+.about {
   width: 830px;
   margin: 0 auto 0 148px;
   padding: 20px 0;
 }
 
-.content__title {
+.about__title {
   font-family: "Inter";
   font-size: 54px;
   font-weight: 900;
@@ -12,7 +12,7 @@
   color: #fff;
 }
 
-.content__quote {
+.about__quote {
   font-size: 24px;
   font-family: "Inter";
   font-weight: 400;
@@ -20,7 +20,7 @@
   color: #fff;
 }
 
-.content__quote-author {
+.about__quote-author {
   font-family: "Inter";
   font-size: 24px;
   font-weight: 400;
@@ -29,7 +29,7 @@
   text-align: right;
 }
 
-.content__text {
+.about__text {
   font-family: "Inter";
   font-weight: 400;
   font-size: 16px;
@@ -38,7 +38,7 @@
 }
 
 @media (max-width: 1024px) {
-  .content {
+  .about {
     width: 90%;
     margin: 0 auto;
     padding: 20px 0;
