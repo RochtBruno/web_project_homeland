@@ -7,8 +7,8 @@
 .city__info{
 	display: grid;
 	grid-template-columns: repeat(2 , 1fr);
+	margin: 60px 0;
 }
-
 .city__detail-title{
 	font-size: 72px;
 	line-height: 76px;
@@ -16,8 +16,15 @@
 	font-weight: 900;
 	color: #fff;
 }
+.city__detail-image{
+	width: 100%;
+	height: auto;
+}
+.city__detail-image:hover{
+	opacity: 0.5;
 
-.city__detail-btn{
+}
+.city__info-btn{
 	background-image: linear-gradient(to right, #0278fe,#003a7b);
 	border: none;
 	border-radius: 4px;
@@ -27,6 +34,16 @@
 	font-family: "Inter";
 	font-weight: 600;
 	color: #fff;
+	margin-top: 30px;
+}
+.city__info-btn:hover{
+	background-image: linear-gradient(to right, #0150aa, #01254e);
+}
+.city__description{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 2% 0 5%;
 }
 .city__description-title{
 	font-family: "Inter";
@@ -38,6 +55,7 @@
 }
 
 .city__description-author{
+	margin-top: -5px;
 	font-family: "Inter";
 	font-size: 18px;
 	color: #fff;
@@ -51,4 +69,17 @@
 	color: #fff;
 	line-height: 22px;
 	font-weight: 400;
+}
+
+@media screen and (max-width: 544px){
+	.city__info{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.city__detail-title{
+		font-size: 3rem;
+	}
+	.city__info-btn{
+		margin-top: 20px;
+		width: 95%;
+	}
 }

@@ -10,3 +10,15 @@
 	width: 100%;
 	height: auto;
 }
+
+@media screen and (max-width: 768px){
+	.gallery{
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (max-width: 544px){
+	.gallery{
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
